@@ -11,6 +11,7 @@ class Exercise implements Comparable{
 
   String question
   ExerciseType type = ExerciseType.SINGLE_ANSWER
+  // Would like to use a list, but that doesn't seem to work, event though the book says it should.
   SortedSet answers
   
   boolean validateUserChoice(UserChoice choice) {
@@ -40,4 +41,17 @@ class Exercise implements Comparable{
     question(nullable: false, blank: false)
     answers()
   }
+
+  def correctAnswers() {
+    answers.findAll { it.isCorrect }
+  }
+
+  def correctAnswersAsText() {
+    correctAnswers().collectAll { it.text }
+  }
+
+  def answersAsText() {
+    answers.collectAll { it.text }
+  }
+
 }

@@ -10,7 +10,7 @@ class Level {
   SortedSet exercises
   Random random = new Random()
 
-  Exercise randomExercise() {
+  def randomExercise() {
     def n = exercises.size()
     assert n > 0 : "Exercises are empty?"
     exercises.toArray()[random.nextInt(n)]

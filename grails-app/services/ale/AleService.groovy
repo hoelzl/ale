@@ -25,7 +25,7 @@ class AleService {
     Level level = Level.findByNumber(levelNumber)
     if (level) {
       currentLevelNumber = level.number
-      getNextExercise()
+      nextExercise()
       true
     }
     else {
@@ -33,12 +33,27 @@ class AleService {
     }
   }
 
-  Exercise getNextExercise() {
+  def returnExerciseInfo(Exercise exercise) {[
+          success: true,
+          result: [
+                  exercise: [
+                          exerciseId: exercise.id,
+                          question: exercise.question,
+                          answers: exercise.answersAsText()
+                  ]
+          ]
+  ]}
+
+  def currentExercise() {
+    returnExerciseInfo(Exercise.findById(currentExerciseId))
+  }
+
+  def nextExercise() {
     Level level = Level.findByNumber(currentLevelNumber)
-    Exercise currentExercise = level.randomExercise()
-    currentExerciseId = currentExercise.id
+    Exercise exercise = level.randomExercise()
+    currentExerciseId = exercise.id
     exerciseAnswered = false
-    currentExercise
+    returnExerciseInfo(exercise)
   }
 
   Boolean answerCurrentExercise(UserChoice choice) {
@@ -50,4 +65,30 @@ class AleService {
       false
   }
 
+  def returnAnswer(Boolean value) {
+    def exercise = Exercise.findById(currentExerciseId)
+    if (exercise) {[
+            success: true,
+            result: value,
+            info: [
+                    exerciseId: exercise.id,
+                    question: exercise.question,
+                    answers: exercise.correctAnswersAsText() ]
+    ]}
+    else {[
+            success: false,
+            errors: [
+                    exercise: "No current exercise"
+            ]]
+    }
+  }
+
+
+  def returnRightAnswer() {
+    returnAnswer(true)
+  }
+
+  def returnWrongAnswer() {
+    returnAnswer(false)
+  }
 }

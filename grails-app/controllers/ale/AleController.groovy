@@ -38,14 +38,32 @@ class AleController {
     jsonMethod(aleService.setLevel(levelNumber))
   }
 
+  def currentExercise = {
+    jsonMethod(aleService.currentExercise())
+  }
+
   def nextExercise = {
-    jsonMethod(aleService.getNextExercise())
+    jsonMethod(aleService.nextExercise())
   }
 
   def answerCurrentExercise = {
     String answerString = params["answer"] ?: "[]"
     JSONElement answer = JSON.parse(answerString)
     def choice = new UserChoice(selectedAnswers: answer as List)
-    jsonMethod(aleService.answerCurrentExercise(choice))
+    def result = aleService.answerCurrentExercise(choice)
+    if (result) {
+      redirect([action: "rightAnswer"])
+    }
+    else {
+      redirect([action: "wrongAnswer"])
+    }
+  }
+
+  def rightAnswer = {
+    jsonMethod(aleService.returnRightAnswer())
+  }
+
+  def wrongAnswer = {
+    jsonMethod(aleService.returnWrongAnswer())
   }
 }
