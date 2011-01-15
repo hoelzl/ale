@@ -2,18 +2,19 @@ package ale
 
 class LoggingFilters {
 
-    def filters = {
-        all(controller:'*', action:'*') {
-            before = {
-                log.debug("Parameters: ${params.inspect()}.")
-            }
-            after = {
-                
-            }
-            afterView = {
-                
-            }
-        }
+  def filters = {
+    all(controller:'*', action:'*') {
+      before = {
+        print("Controller: ${params.controller}; Action: ${params.action}.\n")
+        print("  Parameters: ${params.inspect()}.\n")
+      }
+      after = {
+
+      }
+      afterView = {
+
+      }
     }
+  }
     
 }
