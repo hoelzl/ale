@@ -10,6 +10,12 @@ class Level {
   SortedSet exercises
   Random random = new Random()
 
+  def getInfo(){[
+          class: getClass(),
+          number: number,
+          name: name
+  ]}
+  
   def randomExercise() {
     def n = exercises.size()
     assert n > 0 : "Exercises are empty?"

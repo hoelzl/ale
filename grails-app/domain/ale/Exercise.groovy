@@ -42,6 +42,13 @@ class Exercise implements Comparable{
     answers()
   }
 
+  def getInfo() {[
+          class: getClass(),
+          exerciseId: id,
+          question: question,
+          answers: answersAsText()
+  ]}
+
   def correctAnswers() {
     answers.findAll { it.isCorrect }
   }

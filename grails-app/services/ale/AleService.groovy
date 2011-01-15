@@ -13,20 +13,20 @@ class AleService {
   Boolean exerciseAnswered = false
 
   def listLevels() {
-    Level.list()
+    Level.list().collect { it.getInfo() }
   }
 
-  Level getLevel() {
-    Level.findByNumber(currentLevelNumber)
+  def getCurrentLevel() {
+    Level.findByNumber(currentLevelNumber)?.getInfo()
   }
 
-  Boolean setLevel(int levelNumber) {
+  def setCurrentLevel(int levelNumber) {
     // Only set the current level if a level with that number actually exists.
     Level level = Level.findByNumber(levelNumber)
     if (level) {
       currentLevelNumber = level.number
       nextExercise()
-      true
+      getCurrentLevel()
     }
     else {
       false
@@ -36,13 +36,7 @@ class AleService {
   def returnExerciseInfo(exercise) {
     if (exercise) [
             success: true,
-            result: [
-                    exercise: [
-                            exerciseId: exercise.id,
-                            question: exercise.question,
-                            answers: exercise.answersAsText()
-                    ]
-            ]
+            result: exercise.getInfo()
     ]
     else [
             success: false,
@@ -52,9 +46,14 @@ class AleService {
     ]
   }
 
-  def currentExercise() {
+  def getCurrentExercise() {
     def exercise = Exercise.findById(currentExerciseId)
-    returnExerciseInfo(exercise)
+    if (exercise) {
+      returnExerciseInfo(exercise)
+    }
+    else {
+      nextExercise()
+    }
   }
 
   def nextExercise() {
@@ -80,6 +79,7 @@ class AleService {
             success: true,
             result: value,
             info: [
+                    class: exercise.getClass(),
                     exerciseId: exercise.id,
                     question: exercise.question,
                     answers: exercise.correctAnswersAsText() ]

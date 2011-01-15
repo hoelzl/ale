@@ -6,40 +6,56 @@ import ale.utils.UserChoice
 
 class AleController {
   def aleService
+  // TODO: This list should automatically be generated from the service methods.
+  def publicServices = [
+          "index",
+          "listLevels", "getCurrentLevel", "setCurrentLevel",
+          "getCurrentExercise", "setCurrentExercise",
+          "nextExercise",
+          "answerCurrentExercise"
+  ]
 
   def jsonMethod(obj) {
     render(contentType: "text/plain", text: obj as JSON)
   }
 
   def jsonMethod(Boolean obj) {
-    jsonMethod([result: obj])
+    jsonMethod([ success: false ])
   }
 
   def jsonMethod(Integer obj) {
-    jsonMethod([result: obj])
+    jsonMethod([ success: true ])
   }
 
   def index = {
-    jsonMethod(aleService.listLevels())
+    jsonMethod([
+            success: true,
+            result: publicServices
+    ])
   }
 
   def listLevels = {
     jsonMethod(aleService.listLevels())
   }
 
-  def getLevel = {
-    jsonMethod(aleService.getLevel())
+  def getCurrentLevel = {
+    jsonMethod(aleService.getCurrentLevel())
   }
 
-  def setLevel = {
+  def setCurrentLevel = {
     String levelNumberString = params["levelNumber"] ?: "1"
     Integer levelNumber = levelNumberString.toInteger()
-    // Cannot convert basic values to JSON, so we encapsulate it as an object.
-    jsonMethod(aleService.setLevel(levelNumber))
+    jsonMethod(aleService.setCurrentLevel(levelNumber))
   }
 
-  def currentExercise = {
-    jsonMethod(aleService.currentExercise())
+  def getCurrentExercise = {
+    jsonMethod(aleService.getCurrentExercise())
+  }
+
+  def setCurrentExercise = {
+    String exerciseIdString = params["exerciseId"]
+    Integer exerciseId = exerciseIdString?.toInteger()
+    jsonMethod(aleService.setCurrentExerciseId(exerciseId))
   }
 
   def nextExercise = {
@@ -59,10 +75,12 @@ class AleController {
     }
   }
 
+  // TODO: Should only be allowed as a redirect.
   def rightAnswer = {
     jsonMethod(aleService.returnRightAnswer())
   }
 
+  // TODO: Should only be allowed as a redirect.
   def wrongAnswer = {
     jsonMethod(aleService.returnWrongAnswer())
   }
