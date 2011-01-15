@@ -15,51 +15,45 @@ class AleController {
           "answerCurrentExercise"
   ]
 
-  def jsonMethod(obj) {
-    render(contentType: "text/plain", text: obj as JSON)
-  }
-
-  def jsonMethod(Boolean obj) {
-    jsonMethod([ success: false ])
-  }
-
-  def jsonMethod(Integer obj) {
-    jsonMethod([ success: true ])
+  def jsonMethod(success, errors) {
+    if (success != null)
+      render(contentType: "text/plain", text: [success: true, result: success] as JSON)
+    else
+      render(contentType: "text/plain", text: [success: false, errors: errors] as JSON)
   }
 
   def index = {
-    jsonMethod([
-            success: true,
-            result: publicServices
-    ])
+    jsonMethod(publicServices, ["Cannot list public services."])
   }
 
   def listLevels = {
-    jsonMethod(aleService.listLevels())
+    jsonMethod(aleService.listLevels(), ["Cannot list levels."])
   }
 
   def getCurrentLevel = {
-    jsonMethod(aleService.getCurrentLevel())
+    jsonMethod(aleService.getCurrentLevel(), ["No current level."])
   }
 
   def setCurrentLevel = {
     String levelNumberString = params["levelNumber"] ?: "1"
     Integer levelNumber = levelNumberString.toInteger()
-    jsonMethod(aleService.setCurrentLevel(levelNumber))
+    def result = aleService.setCurrentLevel(levelNumber)
+    jsonMethod(result, ["$levelNumberString is not a valid Level number."])
   }
 
   def getCurrentExercise = {
-    jsonMethod(aleService.getCurrentExercise())
+    jsonMethod(aleService.getCurrentExercise(), ["No current exercise."])
   }
 
   def setCurrentExercise = {
     String exerciseIdString = params["exerciseId"]
     Integer exerciseId = exerciseIdString?.toInteger()
-    jsonMethod(aleService.setCurrentExerciseId(exerciseId))
+    def result = aleService.setCurrentExercise(exerciseId)
+    jsonMethod(result, ["$exerciseIdString is not a valid exercise ID for level #${aleService.currentLevelNumber}."])
   }
 
   def nextExercise = {
-    jsonMethod(aleService.nextExercise())
+    jsonMethod(aleService.nextExercise(), ["Could not advance to the next exercise."])
   }
 
   def answerCurrentExercise = {
@@ -77,11 +71,11 @@ class AleController {
 
   // TODO: Should only be allowed as a redirect.
   def rightAnswer = {
-    jsonMethod(aleService.returnRightAnswer())
+    jsonMethod(aleService.returnRightAnswer(), ["No current exercise."])
   }
 
   // TODO: Should only be allowed as a redirect.
   def wrongAnswer = {
-    jsonMethod(aleService.returnWrongAnswer())
+    jsonMethod(aleService.returnWrongAnswer(), ["No current exercise."])
   }
 }

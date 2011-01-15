@@ -16,10 +16,10 @@ class Level {
           name: name
   ]}
   
-  def randomExercise() {
+  Exercise randomExercise() {
     def n = exercises.size()
     assert n > 0 : "Exercises are empty?"
-    exercises.toArray()[random.nextInt(n)]
+    exercises.toArray()[random.nextInt(n)] as Exercise
   }
 
   String toString() {

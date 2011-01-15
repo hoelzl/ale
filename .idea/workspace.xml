@@ -2,7 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b6ecc03-d960-4d68-928c-09b473c511bf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/favicon.ico" afterPath="$PROJECT_DIR$/web-app/images/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/grails_logo.jpg" afterPath="$PROJECT_DIR$/web-app/images/grails_logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/grails_logo.png" afterPath="$PROJECT_DIR$/web-app/images/grails_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/leftnav_btm.png" afterPath="$PROJECT_DIR$/web-app/images/leftnav_btm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/leftnav_midstretch.png" afterPath="$PROJECT_DIR$/web-app/images/leftnav_midstretch.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/leftnav_top.png" afterPath="$PROJECT_DIR$/web-app/images/leftnav_top.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/database_add.png" afterPath="$PROJECT_DIR$/web-app/images/skin/database_add.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/database_delete.png" afterPath="$PROJECT_DIR$/web-app/images/skin/database_delete.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/database_edit.png" afterPath="$PROJECT_DIR$/web-app/images/skin/database_edit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/database_save.png" afterPath="$PROJECT_DIR$/web-app/images/skin/database_save.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/database_table.png" afterPath="$PROJECT_DIR$/web-app/images/skin/database_table.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/exclamation.png" afterPath="$PROJECT_DIR$/web-app/images/skin/exclamation.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/house.png" afterPath="$PROJECT_DIR$/web-app/images/skin/house.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/information.png" afterPath="$PROJECT_DIR$/web-app/images/skin/information.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/shadow.jpg" afterPath="$PROJECT_DIR$/web-app/images/skin/shadow.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/sorted_asc.gif" afterPath="$PROJECT_DIR$/web-app/images/skin/sorted_asc.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/skin/sorted_desc.gif" afterPath="$PROJECT_DIR$/web-app/images/skin/sorted_desc.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/spinner.gif" afterPath="$PROJECT_DIR$/web-app/images/spinner.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/springsource.png" afterPath="$PROJECT_DIR$/web-app/images/springsource.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.codehaus.groovy.eclipse.preferences.prefs" afterPath="$PROJECT_DIR$/.settings/org.codehaus.groovy.eclipse.preferences.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ale-grailsPlugins.iml" afterPath="$PROJECT_DIR$/ale-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ale.iml" afterPath="$PROJECT_DIR$/ale.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/ale/LoggingFilters.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/ale/LoggingFilters.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/ale/AleController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/ale/AleController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/ale/Answer.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/ale/Answer.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/ale/Exercise.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/ale/Exercise.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/ale/Level.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/ale/Level.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_da.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_da.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_de.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_de.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_es.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_es.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_fr.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_fr.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_it.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_it.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_ja.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_ja.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_nl.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_nl.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_pt_PT.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_pt_PT.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_ru.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_th.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_th.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_zh_CN.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_zh_CN.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/ale/AleService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/ale/AleService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/utils/ale/utils/ExerciseType.groovy" afterPath="$PROJECT_DIR$/grails-app/utils/ale/utils/ExerciseType.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/utils/ale/utils/UserChoice.groovy" afterPath="$PROJECT_DIR$/grails-app/utils/ale/utils/UserChoice.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/error.gsp" afterPath="$PROJECT_DIR$/grails-app/views/error.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ale/AleControllerTests.groovy" afterPath="$PROJECT_DIR$/test/unit/ale/AleControllerTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ale/AleServiceTests.groovy" afterPath="$PROJECT_DIR$/test/unit/ale/AleServiceTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ale/AnswerTests.groovy" afterPath="$PROJECT_DIR$/test/unit/ale/AnswerTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ale/ExerciseTests.groovy" afterPath="$PROJECT_DIR$/test/unit/ale/ExerciseTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ale/LevelTests.groovy" afterPath="$PROJECT_DIR$/test/unit/ale/LevelTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ale/LoggingFiltersTests.groovy" afterPath="$PROJECT_DIR$/test/unit/ale/LoggingFiltersTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/sitemesh.xml" afterPath="$PROJECT_DIR$/web-app/WEB-INF/sitemesh.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/c.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/c.tld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/fmt.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/fmt.tld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/grails.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/grails.tld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/spring.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/spring.tld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/main.css" afterPath="$PROJECT_DIR$/web-app/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/application.js" afterPath="$PROJECT_DIR$/web-app/js/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/animation.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/builder.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/controls.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/controls.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/dragdrop.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/dragdrop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/effects.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/effects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/prototype.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/prototype.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/rico.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/rico.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/scriptaculous.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/scriptaculous.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/slider.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/sound.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/sound.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/prototype/unittest.js" afterPath="$PROJECT_DIR$/web-app/js/prototype/unittest.js" />
     </list>
     <ignored path="ale.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,31 +188,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AleService.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/ale/AleService.groovy">
+      <file leaf-file-name="Answer.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/ale/Answer.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="20" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Level.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/ale/Level.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="2" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exercise.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/ale/Exercise.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="19" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+            <state line="6" column="35" selection-start="129" selection-end="129" vertical-scroll-proportion="-2.372093">
               <folding />
             </state>
           </provider>
@@ -138,37 +209,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="AleService.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/ale/AleService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="65" selection-start="861" selection-end="861" vertical-scroll-proportion="0.70247936">
+            <state line="76" column="63" selection-start="2082" selection-end="2082" vertical-scroll-proportion="-13.04">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stacktrace.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/stacktrace.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AleController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AleController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/ale/AleController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.0">
+            <state line="29" column="34" selection-start="864" selection-end="864" vertical-scroll-proportion="0.116504855">
               <folding />
             </state>
           </provider>
@@ -203,9 +256,9 @@
         <option value="$PROJECT_DIR$/grails-app/conf/ale/LoggingFilters.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/ale/Exercise.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/ale/Level.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/ale/AleController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/ale/AleService.groovy" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/grails-app/services/ale/AleService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/ale/AleController.groovy" />
       </list>
     </option>
   </component>
@@ -242,8 +295,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,7 +327,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,27 +383,33 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="263" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="281" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="278" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aglearner/grails-app/conf" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="283" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="957" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="952" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="278" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="276" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
@@ -322,8 +423,10 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
@@ -554,24 +657,24 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995749" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3995749" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32837406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26673752" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24862184" sideWeight="0.6705632" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2731137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19790518" sideWeight="0.3995749" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19790518" sideWeight="0.48884165" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19790518" sideWeight="0.26354942" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19735391" sideWeight="0.60042506" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -621,16 +724,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../grails/grails-1.3.6/lib/org.springframework.aop-3.0.5.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="31" selection-start="1609" selection-end="1609" vertical-scroll-proportion="-7.08" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../grails/grails-1.3.6/lib/org.springframework.aop-3.0.5.RELEASE.jar!/org/springframework/aop/framework/Cglib2AopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="32" selection-start="3915" selection-end="3915" vertical-scroll-proportion="-6.64" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../grails/grails-1.3.6/lib/cglib-nodep-2.1_3.jar!/net/sf/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="28" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.812" />
@@ -646,14 +739,6 @@
         <state line="116" column="0" selection-start="5279" selection-end="5279" vertical-scroll-proportion="0.8499025" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/ale/Answer.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="129" selection-end="129" vertical-scroll-proportion="-2.372093" />
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/utils/ale/utils/ExerciseType.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" />
@@ -664,24 +749,27 @@
         <state line="85" column="0" selection-start="3595" selection-end="3595" vertical-scroll-proportion="-16.08" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/ale/AleService.groovy">
+    <entry file="file://$PROJECT_DIR$/target/stacktrace.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="20" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/ale/Level.groovy">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.12820514" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/ale/Exercise.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="19" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.3967742" />
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/ale/Exercise.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/ale/Answer.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="19" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+        <state line="6" column="35" selection-start="129" selection-end="129" vertical-scroll-proportion="-2.372093">
           <folding />
         </state>
       </provider>
@@ -691,29 +779,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/ale/LoggingFilters.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/stacktrace.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/ale/AleController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.0">
+        <state line="13" column="19" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../grails/grails-1.3.6/lib/org.springframework.web.servlet-3.0.5.RELEASE.jar!/org/springframework/web/servlet/mvc/SimpleControllerHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="56" selection-start="481" selection-end="481" vertical-scroll-proportion="0.34">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/ale/Level.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="54" selection-start="476" selection-end="476" vertical-scroll-proportion="0.72121215">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="65" selection-start="861" selection-end="861" vertical-scroll-proportion="0.70247936">
+        <state line="111" column="31" selection-start="3939" selection-end="3939" vertical-scroll-proportion="0.936803">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/ale/AleService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="63" selection-start="2082" selection-end="2082" vertical-scroll-proportion="-13.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/ale/AleController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="34" selection-start="864" selection-end="864" vertical-scroll-proportion="0.116504855">
           <folding />
         </state>
       </provider>
@@ -757,11 +868,6 @@
               </list>
             </option>
           </splitter-proportions>
-        </settings>
-      </state>
-      <state key="Copyright.UI">
-        <settings>
-          <splitter-proportions />
         </settings>
       </state>
       <state key="FacetStructureConfigurable.UI">
@@ -822,11 +928,6 @@
               </list>
             </option>
           </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions />
         </settings>
       </state>
     </states>

@@ -2,6 +2,12 @@ package ale
 
 import ale.utils.UserChoice
 
+/**
+ * The service that performs most of the real work for ALE.
+ *
+ * The methods follow the convention that they return a list or a map in the case of success
+ * and null in the case of an error.  This simplifies the controller somewhat.
+ */
 class AleService {
 
   static transactional = true
@@ -29,7 +35,7 @@ class AleService {
       getCurrentLevel()
     }
     else {
-      false
+      null
     }
   }
 
@@ -38,12 +44,8 @@ class AleService {
             success: true,
             result: exercise.getInfo()
     ]
-    else [
-            success: false,
-            errors: [
-                    exercise: "No current exercise."
-            ]
-    ]
+    else
+      null
   }
 
   def getCurrentExercise() {
@@ -56,12 +58,31 @@ class AleService {
     }
   }
 
+  def setCurrentExercise(Exercise exercise) {
+    if (exercise) {
+      currentExerciseId = exercise.id
+      exerciseAnswered = false
+      returnExerciseInfo(exercise)
+    }
+    else
+      null
+  }
+
+  def setCurrentExercise(int exerciseId) {
+    // We need to check that there actually is an exercise with the given ID, therfore
+    // we can't set currentExerciseId directly.
+    def exercise = Exercise.findById(exerciseId)
+    // Don't call the method on Exercise when exercise == null since it is not clear that
+    // this call won't dispatch back here again (AFAIK int = Integer and hence can be null).
+    if (exercise && exercise.level.number == currentLevelNumber)
+      setCurrentExercise(exercise)
+    else
+      null
+  }
+
   def nextExercise() {
     Level level = Level.findByNumber(currentLevelNumber)
-    def exercise = level.randomExercise()
-    currentExerciseId = exercise.id
-    exerciseAnswered = false
-    returnExerciseInfo(exercise)
+    setCurrentExercise(level.randomExercise())
   }
 
   Boolean answerCurrentExercise(UserChoice choice) {
@@ -70,26 +91,22 @@ class AleService {
     if (currentExercise)
       currentExercise.validateUserChoice(choice)
     else
-      false
+      null
   }
 
   def returnAnswer(Boolean value) {
     def exercise = Exercise.findById(currentExerciseId)
     if (exercise) {[
-            success: true,
-            result: value,
-            info: [
+            correctAnswer: value,
+            answerInfo: [
                     class: exercise.getClass(),
                     exerciseId: exercise.id,
                     question: exercise.question,
-                    answers: exercise.correctAnswersAsText() ]
+                    answers: exercise.correctAnswersAsText()
+            ]
     ]}
-    else {[
-            success: false,
-            errors: [
-                    exercise: "No current exercise."
-            ]]
-    }
+    else
+      null
   }
 
 
