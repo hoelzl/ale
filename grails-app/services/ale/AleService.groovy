@@ -33,24 +33,33 @@ class AleService {
     }
   }
 
-  def returnExerciseInfo(Exercise exercise) {[
-          success: true,
-          result: [
-                  exercise: [
-                          exerciseId: exercise.id,
-                          question: exercise.question,
-                          answers: exercise.answersAsText()
-                  ]
-          ]
-  ]}
+  def returnExerciseInfo(exercise) {
+    if (exercise) [
+            success: true,
+            result: [
+                    exercise: [
+                            exerciseId: exercise.id,
+                            question: exercise.question,
+                            answers: exercise.answersAsText()
+                    ]
+            ]
+    ]
+    else [
+            success: false,
+            errors: [
+                    exercise: "No current exercise."
+            ]
+    ]
+  }
 
   def currentExercise() {
-    returnExerciseInfo(Exercise.findById(currentExerciseId))
+    def exercise = Exercise.findById(currentExerciseId)
+    returnExerciseInfo(exercise)
   }
 
   def nextExercise() {
     Level level = Level.findByNumber(currentLevelNumber)
-    Exercise exercise = level.randomExercise()
+    def exercise = level.randomExercise()
     currentExerciseId = exercise.id
     exerciseAnswered = false
     returnExerciseInfo(exercise)
@@ -78,7 +87,7 @@ class AleService {
     else {[
             success: false,
             errors: [
-                    exercise: "No current exercise"
+                    exercise: "No current exercise."
             ]]
     }
   }
