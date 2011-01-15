@@ -2,4 +2,6 @@
 *.bak
 *#
 *.class
+.idea/tasks.xml
+.idea/workspace.xml
 target/stacktrace.log
