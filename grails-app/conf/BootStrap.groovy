@@ -25,17 +25,17 @@ class BootStrap {
         def e41 = new Exercise(level: l4, question: "Question 4.1").save(failOnError: true)
         def e42 = new Exercise(level: l4, question: "Question 4.2").save(failOnError: true)
 
-        new Answer(exercise: e11, text: "Answer 1.1.1", isCorrect: false).save(failOnError: true)
+        new Answer(exercise: e11, text: "Answer 1.1.1", isCorrect: true).save(failOnError: true)
         new Answer(exercise: e11, text: "Answer 1.1.2", isCorrect: false).save(failOnError: true)
         new Answer(exercise: e11, text: "Answer 1.1.3", isCorrect: false).save(failOnError: true)
         new Answer(exercise: e11, text: "Answer 1.1.4", isCorrect: false).save(failOnError: true)
         new Answer(exercise: e11, text: "Answer 1.1.5", isCorrect: false).save(failOnError: true)
         new Answer(exercise: e12, text: "Answer 1.2.1", isCorrect: false).save(failOnError: true)
-        new Answer(exercise: e12, text: "Answer 1.2.2", isCorrect: false).save(failOnError: true)
+        new Answer(exercise: e12, text: "Answer 1.2.2", isCorrect: true).save(failOnError: true)
         new Answer(exercise: e12, text: "Answer 1.2.3", isCorrect: false).save(failOnError: true)
         new Answer(exercise: e13, text: "Answer 1.3.1", isCorrect: false).save(failOnError: true)
         new Answer(exercise: e13, text: "Answer 1.3.2", isCorrect: false).save(failOnError: true)
-        new Answer(exercise: e13, text: "Answer 1.3.2", isCorrect: false).save(failOnError: true)
+        new Answer(exercise: e13, text: "Answer 1.3.3", isCorrect: true).save(failOnError: true)
       }
     }
     def destroy = {

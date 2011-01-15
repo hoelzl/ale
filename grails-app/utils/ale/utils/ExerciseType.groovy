@@ -7,40 +7,9 @@ package ale.utils
  * Time: 5:07 PM
  */
 public enum ExerciseType {
-  SINGLE_ANSWER("Single Answer") {
-    boolean validateUserChoice(UserChoice choice, List<Boolean> correctAnswers) {
-      if (choice.numberOfAnswers() != 1)
-        false
-      else {
-        def result = true
-        choice.selectedAnswers.eachWithIndex {c, i ->
-          if (c && !correctAnswers[i])
-            result = false
-        }
-        result
-      }
-    }
-  },
-  ALL_ANSWERS("All Answers") {
-    boolean validateUserChoice(UserChoice choice, List<Boolean> correctAnswers) {
-      def result = true
-      choice.selectedAnswers.eachWithIndex {c, i ->
-        if (c != correctAnswers[i])
-        result = false
-      }
-      result
-    }
-  },
-  ANY_ANSWER("Any Answer") {
-    boolean validateUserChoice(UserChoice choice, List<Boolean> correctAnswers) {
-      def result = false
-      choice.selectedAnswers.eachWithIndex {c, i ->
-        if (c && correctAnswers[i])
-          result = true
-      }
-      result
-    }
-  };
+  SINGLE_ANSWER("Single Answer"),
+  ALL_ANSWERS("All Answers"),
+  ANY_ANSWER("Any Answer");
 
   ExerciseType(String name) {
     this.name = name
@@ -49,5 +18,34 @@ public enum ExerciseType {
   String name
   String toString() {
     name
+  }
+
+  static boolean validateUserChoice(ExerciseType type, UserChoice choice, List correctAnswers) {
+    def result = true
+    switch (type) {
+      case SINGLE_ANSWER:
+        if (choice.numberOfAnswers() != 1)
+          result = false
+        else {
+          choice.selectedAnswers.eachWithIndex {a, i ->
+            if (a != correctAnswers[i])
+              result = false
+          }
+        }
+        break
+      case ALL_ANSWERS:
+      choice.selectedAnswers.eachWithIndex {c, i ->
+        if (c != correctAnswers[i])
+          result = false
+      }
+      break
+      case ANY_ANSWER:
+      result = false
+      choice.selectedAnswers.eachWithIndex {c, i ->
+        if (c && correctAnswers[i])
+          result = true
+      }
+    }
+    result
   }
 }

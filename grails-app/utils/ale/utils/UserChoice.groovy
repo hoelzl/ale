@@ -7,7 +7,7 @@ package ale.utils
  * Time: 5:07 PM
  */
 class UserChoice {
-  ArrayList<Boolean> selectedAnswers = []
+  List<Boolean> selectedAnswers = []
 
   int numberOfAnswers() {
     selectedAnswers.count(true)

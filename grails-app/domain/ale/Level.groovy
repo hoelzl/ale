@@ -7,6 +7,7 @@ class Level {
   // Levels are numbered consecutively from 0 to the highest level.
   int number
   String name
+  SortedSet exercises
   Random random = new Random()
 
   Exercise randomExercise() {

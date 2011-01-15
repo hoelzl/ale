@@ -9,11 +9,15 @@ class AleService {
   // We cannot store the current level directly, since this leads to Hibernate transaction errors
   // when accessing attributes of the level in calls to service methods.
   int currentLevelNumber = 1
-  int currentExerciseId
+  int currentExerciseId = -1
   Boolean exerciseAnswered = false
 
   def listLevels() {
     Level.list()
+  }
+
+  Level getLevel() {
+    Level.findByNumber(currentLevelNumber)
   }
 
   Boolean setLevel(int levelNumber) {
@@ -21,6 +25,7 @@ class AleService {
     Level level = Level.findByNumber(levelNumber)
     if (level) {
       currentLevelNumber = level.number
+      getNextExercise()
       true
     }
     else {
@@ -39,7 +44,10 @@ class AleService {
   Boolean answerCurrentExercise(UserChoice choice) {
     exerciseAnswered = true
     def currentExercise = Exercise.findById(currentExerciseId)
-    currentExercise.validateUserChoice(choice)
+    if (currentExercise)
+      currentExercise.validateUserChoice(choice)
+    else
+      false
   }
 
 }

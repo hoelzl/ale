@@ -1,6 +1,6 @@
 package ale
 
-class Answer {
+class Answer implements Comparable {
 
   static belongsTo = [exercise: Exercise]
 
@@ -12,5 +12,18 @@ class Answer {
     exercise(nullable: false)
     text(nullable: false, blank: false)
     isCorrect()
+  }
+
+  int compareTo(Object o) {
+    if (o.getClass() == this.getClass()) {
+      if (o.id == this.id)
+        return 0
+      else if (o.id < this.id)
+        return 1
+      else
+      return -1
+    }
+    else
+      return -1
   }
 }
