@@ -7,6 +7,7 @@ class LoggingFilters {
       before = {
         print("Controller: ${params.controller}; Action: ${params.action}.\n")
         print("  Parameters: ${params.inspect()}.\n")
+        print("  Automata: ${ale.utils.Automata.automata}.\n")
       }
       after = {
 

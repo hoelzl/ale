@@ -117,4 +117,13 @@ class AleService {
   def returnWrongAnswer() {
     returnAnswer(false)
   }
+
+  def showAutomata(context) {
+    def automata = context["automata"]
+    if (automata) {[
+            automata: automata
+    ]}
+    else
+      null
+  }
 }

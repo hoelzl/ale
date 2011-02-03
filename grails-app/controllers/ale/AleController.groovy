@@ -78,4 +78,9 @@ class AleController {
   def wrongAnswer = {
     jsonMethod(aleService.returnWrongAnswer(), ["No current exercise."])
   }
+
+  def showAutomata = {
+    def context = servletContext
+    jsonMethod(aleService.showAutomata(context), ["Automata not defined."])
+  }
 }
